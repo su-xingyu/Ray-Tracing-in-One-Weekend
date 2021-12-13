@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/inOneWeekend.dir/main.cpp.o  -o inOneWeekend 
