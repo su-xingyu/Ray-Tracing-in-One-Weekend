@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend
+CMAKE_SOURCE_DIR = /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend/build
+CMAKE_BINARY_DIR = /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend/build/CMakeFiles /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend/build/CMakeFiles /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named inOneWeekend
+# Target rules for targets named rayTracing
 
 # Build rule for target.
-inOneWeekend: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 inOneWeekend
-.PHONY : inOneWeekend
+rayTracing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rayTracing
+.PHONY : rayTracing
 
 # fast build rule for target.
-inOneWeekend/fast:
-	$(MAKE) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/build
-.PHONY : inOneWeekend/fast
+rayTracing/fast:
+	$(MAKE) -f CMakeFiles/rayTracing.dir/build.make CMakeFiles/rayTracing.dir/build
+.PHONY : rayTracing/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/rayTracing.dir/build.make CMakeFiles/rayTracing.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/rayTracing.dir/build.make CMakeFiles/rayTracing.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/rayTracing.dir/build.make CMakeFiles/rayTracing.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... inOneWeekend"
+	@echo "... rayTracing"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

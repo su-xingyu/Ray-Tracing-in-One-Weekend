@@ -7,6 +7,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.o: ../hittable.h
 CMakeFiles/inOneWeekend.dir/main.cpp.o: ../hittable_list.h
 CMakeFiles/inOneWeekend.dir/main.cpp.o: ../main.cpp
 CMakeFiles/inOneWeekend.dir/main.cpp.o: ../material.h
+CMakeFiles/inOneWeekend.dir/main.cpp.o: ../moving_sphere.h
 CMakeFiles/inOneWeekend.dir/main.cpp.o: ../ray.h
 CMakeFiles/inOneWeekend.dir/main.cpp.o: ../rtweekend.h
 CMakeFiles/inOneWeekend.dir/main.cpp.o: ../sphere.h

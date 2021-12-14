@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend
+CMAKE_SOURCE_DIR = /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend/build
+CMAKE_BINARY_DIR = /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/inOneWeekend.dir/all
+all: CMakeFiles/rayTracing.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/inOneWeekend.dir/clean
+clean: CMakeFiles/rayTracing.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/inOneWeekend.dir
+# Target rules for target CMakeFiles/rayTracing.dir
 
 # All Build rule for target.
-CMakeFiles/inOneWeekend.dir/all:
-	$(MAKE) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/depend
-	$(MAKE) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend/build/CMakeFiles --progress-num=1,2 "Built target inOneWeekend"
-.PHONY : CMakeFiles/inOneWeekend.dir/all
+CMakeFiles/rayTracing.dir/all:
+	$(MAKE) -f CMakeFiles/rayTracing.dir/build.make CMakeFiles/rayTracing.dir/depend
+	$(MAKE) -f CMakeFiles/rayTracing.dir/build.make CMakeFiles/rayTracing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend/build/CMakeFiles --progress-num=1,2 "Built target rayTracing"
+.PHONY : CMakeFiles/rayTracing.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/inOneWeekend.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/inOneWeekend.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xingyu/Desktop/Ray-Tracing/Ray-Tracing-in-One-Weekend/build/CMakeFiles 0
-.PHONY : CMakeFiles/inOneWeekend.dir/rule
+CMakeFiles/rayTracing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rayTracing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xingyu/Desktop/CG-Github-study/Ray-Tracing-in-One-Weekend/build/CMakeFiles 0
+.PHONY : CMakeFiles/rayTracing.dir/rule
 
 # Convenience name for target.
-inOneWeekend: CMakeFiles/inOneWeekend.dir/rule
+rayTracing: CMakeFiles/rayTracing.dir/rule
 
-.PHONY : inOneWeekend
+.PHONY : rayTracing
 
 # clean rule for target.
-CMakeFiles/inOneWeekend.dir/clean:
-	$(MAKE) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/clean
-.PHONY : CMakeFiles/inOneWeekend.dir/clean
+CMakeFiles/rayTracing.dir/clean:
+	$(MAKE) -f CMakeFiles/rayTracing.dir/build.make CMakeFiles/rayTracing.dir/clean
+.PHONY : CMakeFiles/rayTracing.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # set the project name
-project(inOneWeekend)
+project(rayTracing)
 
 # add the executable
-add_executable(inOneWeekend main.cpp)
+add_executable(rayTracing main.cpp)
